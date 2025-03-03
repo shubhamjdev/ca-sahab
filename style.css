@@ -1,0 +1,97 @@
+.navcontainer {
+    width: 100%;
+    height: 100px;
+    background-color: #bb11ef;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+        justify-content: space-between;
+   
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Vertically centers the logo text */
+    margin-right: 0%;
+    text-size-adjust: 30%;
+    padding: 30px;  
+    
+}
+
+.logo h1 {
+    color: rgb(212, 199, 199);
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    color: black;
+}
+
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+.About {
+    color: black
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section img {
+    width: 50%;
+    height: auto;
+}
+
+.about.company {
+    width: 45%;
+    float: right;
+    padding-left: 20px;
+}
+
+.services {
+   background-color: #a29aa4;
+}
+
+.services h1 {
+    color: black;
+    text-align: center;
+}
+
+.services h2 {
+    color: black;
+    text-align: center;
+}
+
