@@ -83,6 +83,21 @@
 
 .services {
    background-color: #a29aa4;
+   font-family: sans-serif;
+}
+.services img {
+    border-radius: 25px;
+}
+.Rows1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}   
+
+.Rows2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .services h1 {
@@ -95,3 +110,43 @@
     text-align: center;
 }
 
+.partners {
+    background-color: #4a2d51;
+}
+
+.partners img {
+    border-radius: 25px;
+}
+.partners .partner {
+    flex: 20%;
+}
+
+.Row1 {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Row2 {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.partners h1 {
+    color: white;
+    text-align: center;
+}
+
+.partners .partner-02 {
+   align-items: center;
+}
+ 
+.footer {
+    background-color: #352354;
+    color: white;
+    text-align: center; 
+    height: 50px;
+    padding: auto;
+}
